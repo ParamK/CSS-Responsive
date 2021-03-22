@@ -1,0 +1,59 @@
+/*HEADER*/
+.heading{
+    color: whitesmoke;
+    font-family: Algerian;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px lightslategray;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: hsl(218, 28%, 13%);
+    height: 110px;
+}
+
+/*Responsive header*/
+
+@media only screen and (max-width: 599px){
+    .heading{
+        font-size: 2rem;
+    }
+}
+
+/*Navbar*/
+
+.container-bg{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    overflow-x: auto;
+}
+
+.nav-links{
+    color: #fff;
+    padding: .5rem;
+    margin: 0 4rem 0 4rem;
+    font-size: 1.5rem;
+}
+
+.nav-links:hover{
+    color:lightslategray;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Table*/
+
+.table-bg{
+    padding: 5rem 0 5rem 0;
+    background-color: hsl(219, 30%, 18%);
+}
