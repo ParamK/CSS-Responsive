@@ -37,7 +37,7 @@ require_once('config2.php');
     <nav class="navbar navbar-bg">
         <a href="index.html" class="nav-links">Home</a>
         <a href="events.html" class="nav-links">Events</a>
-        <a href="attendance.html" class="nav-links">Attendance</a>
+        <a href="http://localhost//CSS-Responsive/Zero%20Gravity%20Club//app/attendance2.php" class="nav-links">Attendance</a>
         <a href="achievements.html" class="nav-links">Achievements</a>
         <a href="committee.html" class="nav-links">Committee</a>       
     </nav>
